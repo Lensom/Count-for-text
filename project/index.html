@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Test</title>
+	<meta name="description" content="Description your project">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="img/favicon/favicon.png" type="image/x-icon">
+
+	<!-- Change color style your browser -->
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#333">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#333">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#333">
+
+	<!-- css -->
+	<style>
+		.form__textarea {
+			min-height: 100px;
+			width: 100%;
+		}
+
+		.form__button {
+			background-color: #2394cc;
+			border: none;
+			color: #fff;
+			padding: 10px 22px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 14px;
+			cursor: pointer;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<div class="form__wrapper">
+		<form action="#" class="form">
+			<textarea class="form__textarea"></textarea>
+			<button type="submit" class="form__button">Count</button>
+		</form>
+	</div>
+
+	<div class="result__wrapper">
+		<p class="result__text">Текст: <span class="text"></span></p>
+		<p class="result__text">Количество слов:<span class="words">0</span></p>
+		<p class="result__text">Количество букв:<span class="letters">0</span></p>
+		<div class="result__list--wrapper">
+		</div>
+	</div>
+
+	<script src="js/common.js"></script>
+</body>
+
+</html>
